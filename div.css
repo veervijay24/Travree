@@ -1,0 +1,42 @@
+.container-div{
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-rows: repeat(1,auto);
+    background-color: rgb(202, 214, 202);
+    height: 200px;
+    /* border: solid blue 3px; */
+    border-radius: 5px;
+    align-items: center;
+    align-content: center;
+    /* justify-content: center; */
+    justify-items: center; 
+}
+.welcome{
+    color: blue;
+    font-size: 4vw;
+}
+.item{
+    font-size: 1vw;
+    padding: 5px;
+    margin-left: 10px;
+    padding-bottom: 10px;
+    color: rgb(93, 37, 157);
+    font-style: bold;
+    font-style: italic;
+    border: solid black 1px;
+    border-radius: 10px;
+    margin-right: 10px;
+    background-color: rgb(234, 236, 153);
+}
+.offer{
+    color: rgb(0, 255, 34);
+    font-size: 2vw;
+    text-decoration: none;
+}
+.participate{
+    
+    color: green;
+    font-size: 2vw;
+    text-decoration: none;
+
+}
